@@ -1,0 +1,97 @@
+<!doctype HTML>
+<html>
+
+<head>
+  <meta name="description" content="Main of pge of XYZ company">
+  <meta name="keywords" content="userName, XYZ, content, keyword">
+  <meta name="author" content="Sravan https://github.com/sravan7">
+  <meta http-equiv="content-type" charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+  <title>User Details</title>
+  <link rel="stylesheet" href="bootstrap-3.0.0-dist/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/page2.css">
+</head>
+
+<body class="container-fluid">
+  <header class="container-fluid navbar navbar-inverse" aria-label="primary" >
+    <div class="navbar-header">
+      <a href="" class="navbar-brand"><img src="images/placeholder.com-logo3.jpg" alt="placeholder logo" id="logo"></a>
+    </div>
+    <nav>
+      <ul class="nav navbar-nav navbar-right" id="navUL">
+        <li><a href="">Link1</a></li>
+        <li><a href="">Link2</a></li>
+        <li><a href="">Link2</a></li>
+        <li><a href="" role="button"aria-label="logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+      </ul>
+    </nav>
+    <button type="button" onclick='showmenu()' id="menuIcon" class="btn btn-sm" aria-label="menu" >&#x2630;</button>
+  </header>
+
+  <main class="row" id="content">
+    <aside class="col-sm-offset-1 col-sm-2">
+      <div class="row col-xs-4">
+        <img src="https://via.placeholder.com/50x50" alt="user profile">
+        <p>qwertyuiop</p>
+        <p>asdfghjkl</p>
+        <p>zxcvbnm</p>
+      </div>
+
+    </aside>
+    <section class="col-sm-6" aria-label="content">
+      <div class="row contentWrapper"> <img src="https://via.placeholder.com/50x50" class="col-sm-4 contentImage" alt="content descriptive image">
+        <p class="col-sm-8"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going
+          to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true
+          generator on the Internet.</p>
+      </div>
+      <div class="row contentWrapper"> <img src="https://via.placeholder.com/50x50" class="col-sm-4 contentImage" alt="content1 descriptive image">
+        <p class="col-sm-8"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going
+          to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true
+          generator on the Internet.</p>
+      </div>
+      <div class="row contentWrapper"> <img src="https://via.placeholder.com/50x50" class="col-sm-4 contentImage" alt="content1 descriptive image">
+        <p class="col-sm-8"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going
+          to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true
+          generator on the Internet. </p>
+      </div>
+    </section>
+    <aside class="col-sm-2" id="secondAside">
+      <h4>
+        Heading
+      </h4>
+      <div class="form-check row col-xs-4 col-sm-12 col-md-10 col-lg-7">
+        <span><input type="checkbox" name="" id="item1" class="form-check-input"><label for="" class="form-check-label">item1</label></span>
+        <span><input type="checkbox" name="" id="item2" class="form-check-input"><label for="" class="form-check-label">item2</label></span>
+        <span><input type="checkbox" name="" id="item3" class="form-check-input"><label for="" class="form-check-label">item3</label></span>
+        <span><input type="checkbox" name="" id="item4" class="form-check-input"><label for="" class="form-check-label">item4</label></span>
+        <span><input type="checkbox" name="" id="item5" class="form-check-input"><label for="" class="form-check-label">item5</label></span>
+        <span><input type="checkbox" name="" id="item6" class="form-check-input"><label for="" class="form-check-label">item6</label></span>
+        <span><input type="checkbox" name="" id="item7" class="form-check-input"><label for="" class="form-check-label">item7</label></span>
+        <span><input type="checkbox" name="" id="item8" class="form-check-input"><label for="" class="form-check-label">item8</label></span>
+        <button type="button" class="btn btn-primary" name="button" aria-label="Submit" >Submit</button>
+      </div>
+
+    </aside>
+
+  </main>
+  <footer role="contentinfo" >
+    <div class="footerWrapper">
+      <a href="" id="link1" >link1</a>
+      <a href="" id="link2">link2</a>
+      <a href="" id="link3">link3</a>
+      <a href="" id="link4">link4</a>
+    </div>
+  </footer>
+  <script>
+    function showmenu() {
+      var x = document.getElementById('navUL');
+      if (x.style.display == 'none') {
+        x.style.display = 'block';
+      } else {
+        x.style.display = 'none';
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+
+#logo {
+  max-width: 150px;
+  min-height: 40px
+}
+
+#navUL {
+  text-align: center;
+}
+
+#menuIcon {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  display: none;
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+}
+
+.contentImage {
+  margin-bottom: 5px;
+}
+
+aside {
+  padding: 5px 0;
+  border: 1px solid #eee;
+  box-shadow: -1px -1px 5px 0 #999;
+}
+
+#secondAside {
+  box-shadow: 1px -1px 5px 0 #999;
+}
+
+section {
+  border: 1px solid #eee;
+  box-shadow: 0 -1px 5px 0 #999;
+  padding: 5px 0;
+}
+
+.contentWrapper {
+  margin-bottom: 20px;
+}
+
+.form-check-label {
+  margin-left: 12px;
+  margin-bottom: 7px;
+}
+
+.row {
+  margin: 0 10px;
+}
+
+span {
+  margin-left: 12px;
+  text-align: center;
+}
+
+.footerWrapper {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.5em;
+  background-color: #222;
+  text-align: center;
+}
+
+#link1 {
+  border-right: 1px solid #fff;
+  padding: 5px;
+}
+
+#link2 {
+  border-right: 1px solid #fff;
+  padding: 5px;
+}
+
+#link3 {
+  border-right: 1px solid #fff;
+  padding: 5px;
+}
+
+/* for Small Screen */
+@media screen and (max-width: 320px) {
+  span {
+    margin-left: 2px;
+  }
+  .form-check-label {
+    margin-left: 3px;
+    margin-bottom: 7px;
+  }
+}
+
+/* for medium screen sized phones */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  main {
+    margin: 20px;
+  }
+  span{
+    margin: 2px;
+  }
+  .form-check-label {
+    margin-left: 3px;
+    margin-bottom: 7px;
+  }
+}
+
+/* Foe Collapsed navgation menu */
+@media screen and (max-width: 768px) {
+  ul {
+    display: none;
+  }
+  #menuIcon {
+    display: block;
+  }
+}
